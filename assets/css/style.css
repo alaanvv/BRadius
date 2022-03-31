@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(230, 230, 230);
+
+    border: 0;
+    padding: 100px;
+    margin: 0;
+
+    text-align: center;
+    font-family: sans-serif;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.container {
+    background-color: rgb(173, 173, 173);
+    padding: 10px;
+    margin: 0 auto;
+    width: 50vw;
+    border: 1px solid black;
+    display: flex;
+
+    box-shadow: 1px 1px 5px black;
+}
+
+.panel {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-right: 1px solid black;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.cobaia {
+    width: 150px;
+    height: 150px;
+    background: #000;
+}

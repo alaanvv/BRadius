@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>BRadius</title>
+</head>
+<body>
+    <h1>Border Radius Generator</h1>
+
+    <div class="container">
+        <div class="panel">
+            <label for="top-left">Top-left (<span id="txt-top-left">0</span>%)</label>
+            <input type="range" id="top-left" maxlength="100" value="0" onchange="bradius.topLeft()">
+
+            <label for="top-right">Top-right (<span id="txt-top-right">0</span>%)</label>
+            <input type="range" id="top-right" maxlength="100" value="0" onchange="bradius.topRight()">
+
+            <label for="bottom-right">Bottom-right (<span id="txt-bottom-right">0</span>%)</label>
+            <input type="range" id="bottom-right" maxlength="100" value="0" onchange="bradius.bottomRight()">
+
+            <label for="bottom-left">Bottom-left (<span id="txt-bottom-left">0</span>%)</label>
+            <input type="range" id="bottom-left" maxlength="100" value="0" onchange="bradius.bottomLeft()">
+            
+            <label for="start-start">Start-start (<span id="txt-start-start">0</span>%)</label>
+            <input type="range" id="start-start" maxlength="100" value="0" onchange="bradius.startStart()">
+            
+            <label for="start-end">Start-end (<span id="txt-start-end">0</span>%)</label>
+            <input type="range" id="start-end" maxlength="100" value="0" onchange="bradius.startEnd()">
+            
+            <label for="end-start">End-start (<span id="txt-end-start">0</span>%)</label>
+            <input type="range" id="end-start" maxlength="100" value="0" onchange="bradius.endStart()">
+            
+            <label for="end-end">End-end (<span id="txt-end-end">0</span>%)</label>
+            <input type="range" id="end-end" maxlength="100" value="0" onchange="bradius.endEnd()">
+            
+
+            <div class="copy">
+                <button class="copy-button">Copy</button>
+            </div>
+        </div>
+
+        <div class="display">
+            <div class="cobaia"></div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
