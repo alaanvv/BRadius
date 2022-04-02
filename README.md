@@ -6,4 +6,4 @@ Link: https://bradius-alaanvv.netlify.app/
 
 #
 
-Tier-1 (https://github/alaanvv/app-ideas)
+Tier-1 (https://github.com/alaanvv/app-ideas)
